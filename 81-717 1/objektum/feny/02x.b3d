@@ -1,0 +1,122 @@
+;kitöltés
+[meshbuilder]
+cube 0.18,0.109,0.04
+color 41,40,47
+translate -0.81,1.64,9.31
+[meshbuilder]
+cube 0.18,0.109,0.04
+color 41,40,47
+translate 0.81,1.64,9.31
+
+
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.1
+color 41,40,47
+Rotate 1,0,0,90
+Translate 0.985,1.64,9.3
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.1
+color 41,40,47
+Rotate 1,0,0,90
+Translate -0.985,1.64,9.3
+
+
+
+
+
+;Fényszórók elöl jobb külsõ
+[MeshBuilder]
+Vertex  0.865,1.54,9.352
+Vertex  0.865,1.74,9.352
+Vertex  1.075,1.74,9.352
+Vertex  1.075,1.54,9.352
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+
+;Fényszórók elöl bal külsõ
+[MeshBuilder]
+Vertex  -1.08,1.54,9.352
+Vertex  -1.08,1.74,9.352
+Vertex  -0.87,1.74,9.352
+Vertex  -0.87,1.54,9.352
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;közép 4-es blokk
+;bal külsõ
+[MeshBuilder]
+Vertex  -0.49,1.54,9.361
+Vertex  -0.49,1.74,9.361
+Vertex  -0.28,1.74,9.361
+Vertex  -0.28,1.54,9.361
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;bal belsõ
+[MeshBuilder]
+Vertex  -0.03,1.54,9.361
+Vertex  -0.03,1.74,9.361
+Vertex  -0.24,1.74,9.361
+Vertex  -0.24,1.54,9.361
+Face 0,1,2,3
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;jobb külsõ
+[MeshBuilder]
+Vertex  0.49,1.54,9.361
+Vertex  0.49,1.74,9.361
+Vertex  0.28,1.74,9.361
+Vertex  0.28,1.54,9.361
+Face 0,1,2,3
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;jobb belsõ
+[MeshBuilder]
+Vertex  0.03,1.54,9.361
+Vertex  0.03,1.74,9.361
+Vertex  0.24,1.74,9.361
+Vertex  0.24,1.54,9.361
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+
+
+
+Rotateall 0,1,0,180

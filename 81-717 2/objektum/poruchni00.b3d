@@ -1,0 +1,669 @@
+
+
+
+
+
+
+[MeshBuilder]
+Vertex 0.5,3.01,0.6
+Vertex 0.5,3.31,0.6
+Vertex  1.1,3.31,0.6
+Vertex  1.1,3.01,0.6
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,1.6
+Vertex 0.5,3.31,1.6
+Vertex  1.1,3.31,1.6
+Vertex  1.1,3.01,1.6
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex 0.54,3.02,1.599
+Vertex 0.54,3.045,1.599
+Vertex  0.54,3.045,0.601
+Vertex  0.54,3.02,0.601
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex 0.5,3.01,3.7
+Vertex 0.5,3.31,3.7
+Vertex  1.1,3.31,3.7
+Vertex  1.1,3.01,3.7
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,4.57
+Vertex 0.5,3.31,4.57
+Vertex  1.1,3.31,4.57
+Vertex  1.1,3.01,4.57
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,5.45
+Vertex 0.5,3.31,5.45
+Vertex  1.1,3.31,5.45
+Vertex  1.1,3.01,5.45
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,6.25
+Vertex 0.5,3.31,6.25
+Vertex  1.1,3.31,6.25
+Vertex  1.1,3.01,6.25
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex 0.54,3.02,3.7
+Vertex 0.54,3.045,3.7
+Vertex  0.54,3.045,6.25
+Vertex  0.54,3.02,6.25
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+[MeshBuilder]
+Vertex 0.5,3.01,8.25
+Vertex 0.5,3.31,8.25
+Vertex  1.1,3.31,8.25
+Vertex  1.1,3.01,8.25
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,9.125
+Vertex 0.5,3.31,9.125
+Vertex  1.1,3.31,9.125
+Vertex  1.1,3.01,9.125
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,9.95
+Vertex 0.5,3.31,9.95
+Vertex  1.1,3.31,9.95
+Vertex  1.1,3.01,9.95
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,10.8
+Vertex 0.5,3.31,10.8
+Vertex  1.1,3.31,10.8
+Vertex  1.1,3.01,10.8
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex 0.54,3.02,8.25
+Vertex 0.54,3.045,8.25
+Vertex  0.54,3.045,10.8
+Vertex  0.54,3.02,10.8
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+[MeshBuilder]
+Vertex 0.5,3.01,12.85
+Vertex 0.5,3.31,12.85
+Vertex  1.1,3.31,12.85
+Vertex  1.1,3.01,12.85
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,13.65
+Vertex 0.5,3.31,13.65
+Vertex  1.1,3.31,13.65
+Vertex  1.1,3.01,13.65
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,14.5
+Vertex 0.5,3.31,14.5
+Vertex  1.1,3.31,14.5
+Vertex  1.1,3.01,14.5
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,15.3
+Vertex 0.5,3.31,15.3
+Vertex  1.1,3.31,15.3
+Vertex  1.1,3.01,15.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex 0.54,3.02,12.85
+Vertex 0.54,3.045,12.85
+Vertex  0.54,3.045,15.3
+Vertex  0.54,3.02,15.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+[MeshBuilder]
+Vertex 0.5,3.01,17.35
+Vertex 0.5,3.31,17.35
+Vertex  1.1,3.31,17.35
+Vertex  1.1,3.01,17.35
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.5,3.01,18.3
+Vertex 0.5,3.31,18.3
+Vertex  1.1,3.31,18.3
+Vertex  1.1,3.01,18.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex 0.54,3.02,17.35
+Vertex 0.54,3.045,17.35
+Vertex  0.54,3.045,18.3
+Vertex  0.54,3.02,18.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+
+
+
+[MeshBuilder]
+Vertex -0.5,3.01,1.6
+Vertex -0.5,3.31,1.6
+Vertex  -1.1,3.31,1.6
+Vertex  -1.1,3.01,1.6
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,0.6
+Vertex -0.5,3.31,0.6
+Vertex  -1.1,3.31,0.6
+Vertex  -1.1,3.01,0.6
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex -0.54,3.02,1.599
+Vertex -0.54,3.045,1.599
+Vertex  -0.54,3.045,0.601
+Vertex  -0.54,3.02,0.601
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex -0.5,3.01,3.7
+Vertex -0.5,3.31,3.7
+Vertex  -1.1,3.31,3.7
+Vertex  -1.1,3.01,3.7
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,4.57
+Vertex -0.5,3.31,4.57
+Vertex  -1.1,3.31,4.57
+Vertex  -1.1,3.01,4.57
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,5.45
+Vertex -0.5,3.31,5.45
+Vertex  -1.1,3.31,5.45
+Vertex  -1.1,3.01,5.45
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,6.25
+Vertex -0.5,3.31,6.25
+Vertex  -1.1,3.31,6.25
+Vertex  -1.1,3.01,6.25
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex -0.54,3.02,3.7
+Vertex -0.54,3.045,3.7
+Vertex  -0.54,3.045,6.25
+Vertex  -0.54,3.02,6.25
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+[MeshBuilder]
+Vertex -0.5,3.01,8.25
+Vertex -0.5,3.31,8.25
+Vertex  -1.1,3.31,8.25
+Vertex  -1.1,3.01,8.25
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,9.125
+Vertex -0.5,3.31,9.125
+Vertex  -1.1,3.31,9.125
+Vertex  -1.1,3.01,9.125
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,9.95
+Vertex -0.5,3.31,9.95
+Vertex  -1.1,3.31,9.95
+Vertex  -1.1,3.01,9.95
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,10.8
+Vertex -0.5,3.31,10.8
+Vertex  -1.1,3.31,10.8
+Vertex  -1.1,3.01,10.8
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex -0.54,3.02,8.25
+Vertex -0.54,3.045,8.25
+Vertex  -0.54,3.045,10.8
+Vertex  -0.54,3.02,10.8
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+[MeshBuilder]
+Vertex -0.5,3.01,12.85
+Vertex -0.5,3.31,12.85
+Vertex  -1.1,3.31,12.85
+Vertex  -1.1,3.01,12.85
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,13.65
+Vertex -0.5,3.31,13.65
+Vertex  -1.1,3.31,13.65
+Vertex  -1.1,3.01,13.65
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,14.5
+Vertex -0.5,3.31,14.5
+Vertex  -1.1,3.31,14.5
+Vertex  -1.1,3.01,14.5
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,15.3
+Vertex -0.5,3.31,15.3
+Vertex  -1.1,3.31,15.3
+Vertex  -1.1,3.01,15.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex -0.54,3.02,12.85
+Vertex -0.54,3.045,12.85
+Vertex  -0.54,3.045,15.3
+Vertex  -0.54,3.02,15.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+[MeshBuilder]
+Vertex -0.5,3.01,17.35
+Vertex -0.5,3.31,17.35
+Vertex  -1.1,3.31,17.35
+Vertex  -1.1,3.01,17.35
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.5,3.01,18.3
+Vertex -0.5,3.31,18.3
+Vertex  -1.1,3.31,18.3
+Vertex  -1.1,3.01,18.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+[MeshBuilder]
+Vertex -0.54,3.02,17.35
+Vertex -0.54,3.045,17.35
+Vertex  -0.54,3.045,18.3
+Vertex  -0.54,3.02,18.3
+Face2 0,1,2,3
+[Texture]
+Load kapaszkodo_vizszintes.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,0
+Emissivecolor 255,255,255
+
+
+
+TranslateAll 0,0,-9.5
+Rotateall 0,1,0,180

@@ -1,0 +1,73 @@
+[Object]
+Position = 0, 0, 0
+States=poruchni00.b3d
+
+[Object]
+States=81-717_ajtojelzes_z.b3d, 81-717_ajtojelzes_ny.b3d
+StateFunction = doors
+
+[Object]
+Position = 0, 0, 0
+States=81-714_3125.b3d, 81-714_3125sotet.b3d
+Statefunction = pluginstate[92]
+
+[Object]
+States=81-717_ajtonyitasl.b3d
+TextureShiftXFunction = if[leftdoorstarget==0, max[value-delta*0.46/1.5,0], min[value+delta*0.46/2.2,0.46]]
+[Object]
+States=81-717_ablakl1.b3d
+TranslateZFunction = if[leftdoorstarget==0, max[value-delta*0.68/1.5,0], min[value+delta*0.68/2.2,0.68]]
+[Object]
+States=81-717_ablakl2.b3d
+TranslateZFunction = if[leftdoorstarget==0, min[value+delta*0.68/1.5,0], max[value-delta*0.68/2.2,-0.68]]
+
+[Object]
+States=81-717_ajtonyitasr.b3d
+TextureShiftXFunction = if[rightdoorstarget==0, max[value-delta*0.46/1.5,0], min[value+delta*0.46/2.2,0.46]]
+[Object]
+States=81-717_ablakr1.b3d
+TranslateZFunction = if[rightdoorstarget==0, max[value-delta*0.68/1.5,0], min[value+delta*0.68/2.2,0.68]]
+[Object]
+States=81-717_ablakr2.b3d
+TranslateZFunction = if[rightdoorstarget==0, min[value+delta*0.68/1.5,0], max[value-delta*0.68/2.2,-0.68]]
+
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,8.1
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,6.75
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,5.4
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,4.05
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,2.7
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,1.35
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,0
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,-1.35
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,-2.7
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,-4.05
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,-5.4
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,-6.75
+[Object]
+States=tetoszellozo.b3d
+Position = 0,0,-8.1
+

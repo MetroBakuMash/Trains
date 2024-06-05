@@ -1,0 +1,30 @@
+[Object]
+States=kozepso.b3d
+
+
+[Object]
+States=81-717_ajtojelzes_z.b3d, 81-717_ajtojelzes_ny.b3d
+StateFunction = doors
+
+[Object]
+States=81-717_1_ajtonyitasl.b3d
+TextureShiftXFunction = if[leftdoorstarget==0, max[value-delta*0.46/1.6,0], min[value+delta*0.46/1.6,0.46]]
+[Object]
+States=81-717_ablakl1.b3d
+TranslateZFunction = if[leftdoorstarget==0, max[value-delta*0.68/1.6,0], min[value+delta*0.68/1.6,0.68]]
+[Object]
+States=81-717_ablakl2.b3d
+TranslateZFunction = if[leftdoorstarget==0, min[value+delta*0.68/1.6,0], max[value-delta*0.68/1.6,-0.68]]
+
+[Object]
+States=81-717_1_ajtonyitasr.b3d
+TextureShiftXFunction = if[rightdoorstarget==0, max[value-delta*0.46/1.6,0], min[value+delta*0.46/1.6,0.46]]
+[Object]
+States=81-717_ablakr1.b3d
+TranslateZFunction = if[rightdoorstarget==0, max[value-delta*0.68/1.6,0], min[value+delta*0.68/1.6,0.68]]
+[Object]
+States=81-717_ablakr2.b3d
+TranslateZFunction = if[rightdoorstarget==0, min[value+delta*0.68/1.6,0], max[value-delta*0.68/1.6,-0.68]]
+
+
+

@@ -1,0 +1,224 @@
+[meshbuilder]
+cube 0.0920,0.100,0.04
+color 169,173,176
+translate 0.01,3.13,9.35
+
+[MeshBuilder]
+Cylinder 16,0.10,0.10,0.1
+color 169,173,176
+Rotate 1,0,0,90
+Translate 0.10,3.13,9.34
+
+[MeshBuilder]
+Cylinder 16,0.10,0.10,0.1
+color 169,173,176
+Rotate 1,0,0,90
+Translate -0.10,3.13,9.34
+
+;kitöltés
+[meshbuilder]
+cube 0.0955,0.109,0.04
+color 169,173,176
+translate -0.88,1.64,9.31
+[meshbuilder]
+cube 0.0955,0.109,0.04
+color 169,173,176
+translate 0.88,1.64,9.31
+
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.1
+color 169,173,176
+Rotate 1,0,0,90
+Translate 0.78,1.64,9.3
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.1
+color 169,173,176
+Rotate 1,0,0,90
+Translate -0.78,1.64,9.3
+
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.1
+color 169,173,176
+Rotate 1,0,0,90
+Translate 0.985,1.64,9.3
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.1
+color 169,173,176
+Rotate 1,0,0,90
+Translate -0.985,1.64,9.3
+
+[MeshBuilder]
+Vertex  0.00,3.04,9.400
+Vertex  0.00,3.22,9.400
+Vertex  0.19,3.22,9.400
+Vertex  0.19,3.04,9.400
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+;keret
+[MeshBuilder]
+Vertex  0.00,3.04,9.400
+Vertex  0.00,3.22,9.400
+Vertex  0.19,3.22,9.400
+Vertex  0.19,3.04,9.400
+Face 1,0,3,2
+[Texture]
+Load lampfel_keret.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+[MeshBuilder]
+Vertex  -0.19,3.04,9.4005
+Vertex  -0.19,3.22,9.4005
+Vertex  0.00,3.22,9.4005
+Vertex  0.00,3.04,9.4005
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+;keret
+[MeshBuilder]
+Vertex  -0.19,3.04,9.4005
+Vertex  -0.19,3.22,9.4005
+Vertex  0.00,3.22,9.4005
+Vertex  0.00,3.04,9.4005
+Face 1,0,3,2
+[Texture]
+Load lampfel_keret.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;Fényszórók jobb belsõ
+[MeshBuilder]
+Vertex  0.68,1.55,9.352
+Vertex  0.68,1.73,9.352
+Vertex  0.87,1.73,9.352
+Vertex  0.87,1.55,9.352
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+;keret
+[MeshBuilder]
+Vertex  0.68,1.55,9.3525
+Vertex  0.68,1.73,9.3525
+Vertex  0.87,1.73,9.3525
+Vertex  0.87,1.55,9.3525
+Face 1,0,3,2
+[Texture]
+Load lampfel_keret.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;Fényszórók elöl jobb külsõ
+[MeshBuilder]
+Vertex  0.885,1.55,9.352
+Vertex  0.885,1.73,9.352
+Vertex  1.075,1.73,9.352
+Vertex  1.075,1.55,9.352
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;keret
+[MeshBuilder]
+Vertex  0.885,1.55,9.3525
+Vertex  0.885,1.73,9.3525
+Vertex  1.075,1.73,9.3525
+Vertex  1.075,1.55,9.3525
+Face 1,0,3,2
+[Texture]
+Load lampfel_keret.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+[MeshBuilder]
+Vertex  0.68,1.55,9.3522
+Vertex  0.68,1.73,9.3522
+Vertex  0.87,1.73,9.3522
+Vertex  0.87,1.55,9.3522
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+
+
+;Fényszórók elöl bal külsõ
+[MeshBuilder]
+Vertex  -1.08,1.55,9.352
+Vertex  -1.08,1.73,9.352
+Vertex  -0.89,1.73,9.352
+Vertex  -0.89,1.55,9.352
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+;keret
+[MeshBuilder]
+Vertex  -1.08,1.55,9.3525
+Vertex  -1.08,1.73,9.3525
+Vertex  -0.89,1.73,9.3525
+Vertex  -0.89,1.55,9.3525
+Face 1,0,3,2
+[Texture]
+Load lampfel_keret.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+[MeshBuilder]
+Vertex  -0.88,1.55,9.3522
+Vertex  -0.88,1.73,9.3522
+Vertex  -0.69,1.73,9.3522
+Vertex  -0.69,1.55,9.3522
+Face 1,0,3,2
+[Texture]
+Load lampfel.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Transparent 255,0,0
+
+Rotateall 0,1,0,180

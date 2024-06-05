@@ -1,0 +1,44 @@
+[object]
+States = hatso.b3d
+
+[object]
+States = utas_vilagos2.b3d
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[object]
+states = tengely.b3d
+Position = 0, 0.4, 6.8
+RotateXFunction = value + delta * speedometer / 0.40
+
+[object]
+states = tengely.b3d
+Position = 0, 0.4, 4.8
+RotateXFunction = value + delta * speedometer / 0.40
+
+[object]
+states = tengely.b3d
+Position = 0, 0.4, -4.8
+RotateXFunction = value + delta * speedometer / 0.40
+
+[object]
+states = tengely.b3d
+Position = 0, 0.4, -6.8
+RotateXFunction = value + delta * speedometer / 0.40
+
+[object]
+States = ajtoL1.b3d
+Position = -0.025,0,0
+TranslateZFunction = 0.575 * leftdoors[0]
+[object]
+States = ajtoL2.b3d
+Position = -0.025,0,0
+TranslateZFunction = -0.575 * leftdoors[0]
+
+[object]
+States = ajtoR1.b3d
+Position = 0.025,0,0
+TranslateZFunction = 0.575 * rightdoors[0]
+[object]
+States = ajtoR2.b3d
+Position = 0.025,0,0
+TranslateZFunction = -0.575 * rightdoors[0]

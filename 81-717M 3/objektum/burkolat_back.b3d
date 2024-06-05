@@ -1,0 +1,83 @@
+
+[MeshBuilder]
+Vertex -1.185,3.26,0.259
+Vertex -0.580,3.26,0.139
+Vertex -0.580,3.48,0.18
+Vertex -1.17,3.42,0.30
+Face2 1,2,3,0
+[Texture]
+Load some_kind_of_fuck_that_is_on_top_of_the_mask.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex -0.580,3.26,0.139
+Vertex  0.580,3.26,0.139
+Vertex  0.580,3.48,0.18
+Vertex -0.580,3.48,0.18
+Face2 1,2,3,0
+[Texture]
+Load some_kind_of_fuck_that_is_on_top_of_the_mask.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+
+[MeshBuilder]
+Vertex 1.185,3.26,0.259
+Vertex 0.580,3.26,0.139
+Vertex 0.580,3.48,0.18
+Vertex 1.17,3.42,0.30
+Face2 0,3,2,1
+[Texture]
+Load some_kind_of_fuck_that_is_on_top_of_the_mask.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+
+
+
+[MeshBuilder]
+Vertex -1.17,3.42,0.30
+Vertex -0.580,3.48,0.18
+Vertex  0.580,3.48,0.18
+Vertex  1.17,3.42,0.30
+Vertex -1.1,3.6,0.5
+Vertex -0.580,3.65,0.38
+Vertex  0.580,3.65,0.38
+Vertex  1.1,3.6,0.5
+Face2 01,00,04,05
+Face2 02,01,05,06
+Face2 03,02,06,07
+Color 55,52,52
+
+[MeshBuilder]
+Vertex 1.185,3.26,0.259
+Vertex 1.335,3.26,00.41
+Vertex 1.26,3.42,00.45
+Vertex 1.17,3.42,0.3
+Vertex 1.1,3.6,0.5
+Vertex 1.1,3.6,0.5
+Face2 0,3,2,1
+Face2 3,4,5,2
+Color 207,219,232
+
+
+[MeshBuilder]
+Vertex -1.185,3.26,0.259
+Vertex -1.335,3.26,00.41
+Vertex -1.26,3.42,00.45
+Vertex -1.17,3.42,0.3
+Vertex -1.1,3.6,0.5
+Vertex -1.1,3.6,0.5
+Face2 1,2,3,0
+Face2 2,5,4,3
+Color 207,219,232
+
+
+TranslateAll 0,0,-9.5

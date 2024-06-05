@@ -1,0 +1,1779 @@
+;Ganz Hunslet G2 motorkocsi világos utastér objektum az OpenBve-hez
+;készítette : Bzmot332
+;készült 2010.07.09
+
+;oldalak
+
+;Front
+
+[MeshBuilder]       ;belül
+Vertex 1.3,3.5,9.15
+Vertex -1.3,3.5,9.15
+Vertex -1.3,1,9.45
+Vertex 1.3,1,9.45
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load frontb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]       ;össz.elem jobb belül
+Vertex 1.3, 3.5, 9.2
+Vertex 1.3, 1, 9.5
+Vertex 1.3, 1, 9.2
+Face 1,0,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+
+[MeshBuilder]       ;össz.elem bal belül
+Vertex -1.3, 3.5, 9.2
+Vertex -1.3, 1, 9.5
+Vertex -1.3, 1, 9.2
+Face 0,1,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+
+;oldalak
+
+;jobb
+
+[MeshBuilder]
+Vertex 1.25,3.5,9.2
+Vertex 1.25,3.5,7.5
+Vertex 1.25,1,7.5
+Vertex 1.25,1,9.2
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load vezoldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex 1.25,3.5,6
+Vertex 1.25,3.5,7.5
+Vertex 1.25,1,7.5
+Vertex 1.25,1,6
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.25,3.5,3
+Vertex 1.25,3.5,6
+Vertex 1.25,1,6
+Vertex 1.25,1,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.25,3.5,1.5
+Vertex 1.25,3.5,3
+Vertex 1.25,1,3
+Vertex 1.25,1,1.5
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.25,3.5,-1.5
+Vertex 1.25,3.5,1.5
+Vertex 1.25,1,1.5
+Vertex 1.25,1,-1.5
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.25,3.5,-3
+Vertex 1.25,3.5,-1.5
+Vertex 1.25,1,-1.5
+Vertex 1.25,1,-3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.25,3.5,-6
+Vertex 1.25,3.5,-3
+Vertex 1.25,1,-3
+Vertex 1.25,1,-6
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.25,3.5,-7.5
+Vertex 1.25,3.5,-6
+Vertex 1.25,1,-6
+Vertex 1.25,1,-7.5
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.25,3.5,-9.5
+Vertex 1.25,3.5,-7.5
+Vertex 1.25,1,-7.5
+Vertex 1.25,1,-9.5
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+;bal
+[MeshBuilder]       ;vezold
+Vertex -1.25,3.5,9.2
+Vertex -1.25,3.5,7.5
+Vertex -1.25,1,7.5
+Vertex -1.25,1,9.2
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load vezoldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,6
+Vertex -1.25,3.5,7.5
+Vertex -1.25,1,7.5
+Vertex -1.25,1,6
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,3
+Vertex -1.25,3.5,6
+Vertex -1.25,1,6
+Vertex -1.25,1,3
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,1.5
+Vertex -1.25,3.5,3
+Vertex -1.25,1,3
+Vertex -1.25,1,1.5
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,-1.5
+Vertex -1.25,3.5,1.5
+Vertex -1.25,1,1.5
+Vertex -1.25,1,-1.5
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,-3
+Vertex -1.25,3.5,-1.5
+Vertex -1.25,1,-1.5
+Vertex -1.25,1,-3
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,-6
+Vertex -1.25,3.5,-3
+Vertex -1.25,1,-3
+Vertex -1.25,1,-6
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,-7.5
+Vertex -1.25,3.5,-6
+Vertex -1.25,1,-6
+Vertex -1.25,1,-7.5
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load ajto-oldb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.25,3.5,-9.5
+Vertex -1.25,3.5,-7.5
+Vertex -1.25,1,-7.5
+Vertex -1.25,1,-9.5
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load oldalb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.3,3.5,-9.45
+Vertex 1.3,3.5,-9.45
+Vertex 1.3,1,-9.45
+Vertex -1.3,1,-9.45
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load backb.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;fedõ elöl belül
+Vertex 1.3,3.5,9.15
+Vertex 1,3.65,9.15
+Vertex 0,3.8,9.15
+Vertex -1,3.65,9.15
+Vertex -1.3,3.5,9.15
+Face 0,4,3,2,1,0
+Color 225,225,225
+EmissiveColor 255,255,255
+
+[MeshBuilder]                  ;fedõ hátul belül
+Vertex 1.3,3.5,-9.5
+Vertex 1,3.65,-9.5
+Vertex 0,3.8,-9.5
+Vertex -1,3.65,-9.5
+Vertex -1.3,3.5,-9.5
+Face 0,1,2,3,4,0
+Color 225,225,225
+EmissiveColor 255,255,255
+
+[MeshBuilder]          ;plafon
+Vertex -1.1,3.25,-9.5
+Vertex -1,3.45,-9.5
+Vertex 0,3.55,-9.5
+Vertex 1,3.45,-9.5
+Vertex 1.1,3.25,-9.5
+Vertex -1.1,3.25,9.2
+Vertex -1,3.45,9.2
+Vertex 0,3.55,9.2
+Vertex 1,3.45,9.2
+Vertex 1.1,3.25,9.2
+Face 0,1,6,5
+Face 1,2,7,6
+Face 2,3,8,7
+Face 3,4,9,8
+EmissiveColor 255,255,255
+[Texture]
+Load plafon.bmp
+Coordinates 0,0,0
+Coordinates 1,0.2,0
+Coordinates 6,0.2,12
+Coordinates 5,0,12
+[Texture]
+Load plafon.bmp
+Coordinates 1,0.2,0
+Coordinates 2,0.5,0
+Coordinates 7,0.5,12
+Coordinates 6,0.2,12
+[Texture]
+Load plafon.bmp
+Coordinates 2,0.5,0
+Coordinates 3,0.8,0
+Coordinates 8,0.8,12
+Coordinates 7,0.5,12
+[Texture]
+Load plafon.bmp
+Coordinates 3,0.8,0
+Coordinates 4,1,0
+Coordinates 9,1,12
+Coordinates 8,0.8,12
+
+[MeshBuilder]                  ;fedõ a plafon alatt jobb
+Vertex 1.1,3.25,7.6
+Vertex 1.29,3.25,7.6
+Vertex 1.29,3.25,-9.5
+Vertex 1.1,3.25,-9.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;fedõ a plafon alatt bal
+Vertex -1.1,3.25,7.6
+Vertex -1.29,3.25,7.6
+Vertex -1.29,3.25,-9.5
+Vertex -1.1,3.25,-9.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;1.szellõzõ
+Vertex -0.3,3.5,7.05
+Vertex 0.3,3.5,7.05
+Vertex 0.3,3.5,6.45
+Vertex -0.3,3.5,6.45
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load szellozo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;2.szellõzõ
+Vertex -0.3,3.5,4.8
+Vertex 0.3,3.5,4.8
+Vertex 0.3,3.5,4.2
+Vertex -0.3,3.5,4.2
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load szellozo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;3.szellõzõ
+Vertex -0.3,3.5,2.55
+Vertex 0.3,3.5,2.55
+Vertex 0.3,3.5,1.95
+Vertex -0.3,3.5,1.95
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load szellozo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;4.szellõzõ
+Vertex -0.3,3.5,0.3
+Vertex 0.3,3.5,0.3
+Vertex 0.3,3.5,-0.3
+Vertex -0.3,3.5,-0.3
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load szellozo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;5.szellõzõ
+Vertex -0.3,3.5,-2.55
+Vertex 0.3,3.5,-2.55
+Vertex 0.3,3.5,-1.95
+Vertex -0.3,3.5,-1.95
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load szellozo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;6.szellõzõ
+Vertex -0.3,3.5,-4.8
+Vertex 0.3,3.5,-4.8
+Vertex 0.3,3.5,-4.2
+Vertex -0.3,3.5,-4.2
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load szellozo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;7.szellõzõ
+Vertex -0.3,3.5,-7.05
+Vertex 0.3,3.5,-7.05
+Vertex 0.3,3.5,-6.45
+Vertex -0.3,3.5,-6.45
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load szellozo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;jobb lámpasor
+Cube 0.15,0.075,8.54
+Color 230,230,230,30
+EmissiveColor 230,230,230
+Translate 0.8,3.5,-0.93
+
+[MeshBuilder]                  ;jobb lámpasor
+Cube 0.15,0.075,8.54
+Color 230,230,230,30
+EmissiveColor 230,230,230
+Translate -0.8,3.5,-0.93
+
+;elválasztó fal
+[MeshBuilder]                  ;fedõ elöl
+Vertex 1.3,3.5,7.6
+Vertex 1,3.65,7.6
+Vertex 0,3.8,7.6
+Vertex -1,3.65,7.6
+Vertex -1.3,3.5,7.6
+Face 0,1,2,3,4,0
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;fedõ elöl belül
+Vertex -1.3,3.5,7.6
+Vertex -1,3.65,7.6
+Vertex 0,3.8,7.6
+Vertex 1,3.65,7.6
+Vertex 1.3,3.5,7.6
+Face 0,1,2,3,4,0
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;jobb oldal
+[MeshBuilder]                  ;elöl
+Vertex 0.35,3.5,8.15
+Vertex 1.3,3.5,8.15
+Vertex 1.3,1,8.15
+Vertex 0.35,1,8.15
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalt
+Vertex 0.35,3.5,8.15
+Vertex 0.35,3.5,7.6
+Vertex 0.35,1,7.6
+Vertex 0.35,1,8.15
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;hátul
+Vertex 0.35,3.5,7.6
+Vertex 1.3,3.5,7.6
+Vertex 1.3,1,7.6
+Vertex 0.35,1,7.6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load elvfal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;bal oldal
+[MeshBuilder]                  ;elöl
+Vertex -0.35,3.5,8.15
+Vertex -1.3,3.5,8.15
+Vertex -1.3,1,8.15
+Vertex -0.35,1,8.15
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalt
+Vertex -0.35,3.5,8.15
+Vertex -0.35,3.5,7.6
+Vertex -0.35,1,7.6
+Vertex -0.35,1,8.15
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;hátul
+Vertex -0.35,3.5,7.6
+Vertex -1.3,3.5,7.6
+Vertex -1.3,1,7.6
+Vertex -0.35,1,7.6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load elvfal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;ajtó
+Vertex -0.35,3.5,8
+Vertex 0.35,3.5,8
+Vertex 0.35,1,8
+Vertex -0.35,1,8
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load elv-ajto.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]                  ;kapcsoló szekrény
+Vertex 0.5,3,8.16
+Vertex 1.15,3,8.16
+Vertex 1.15,2.2,8.16
+Vertex 0.5,2.2,8.16
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load kapcsolo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;ülések
+
+;J1
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex 0.65,1.5,5.975
+Vertex 1.25,1.5,5.975
+Vertex 1.25,1.1,5.975
+Vertex 0.75,1.1,5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex 0.65,1.5,5.975
+Vertex 0.65,1.5,3.025
+Vertex 0.75,1.1,3.025
+Vertex 0.75,1.1,5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;hátsó fedõlap
+Vertex 0.65,1.5,3.025
+Vertex 1.25,1.5,3.025
+Vertex 1.25,1.1,3.025
+Vertex 0.75,1.1,3.025
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,1.48
+Translate 0.93,1.52,4.5
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex 1.25,2.15,5.975
+Vertex 1.25,2.15,3.025
+Vertex 1.15,1.54,3.025
+Vertex 1.15,1.54,5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;J2
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex 0.65,1.5,1.475
+Vertex 1.25,1.5,1.475
+Vertex 1.25,1.1,1.475
+Vertex 0.75,1.1,1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex 0.65,1.5,1.475
+Vertex 0.65,1.5,-1.475
+Vertex 0.75,1.1,-1.475
+Vertex 0.75,1.1,1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;hátsó fedõlap
+Vertex 0.65,1.5,-1.475
+Vertex 1.25,1.5,-1.475
+Vertex 1.25,1.1,-1.475
+Vertex 0.75,1.1,-1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,1.48
+Translate 0.93,1.52,0
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex 1.25,2.15,1.475
+Vertex 1.25,2.15,-1.475
+Vertex 1.15,1.54,-1.475
+Vertex 1.15,1.54,1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;J3
+[MeshBuilder]                  ;hátsó fedõlap
+Vertex 0.65,1.5,-5.975
+Vertex 1.25,1.5,-5.975
+Vertex 1.25,1.1,-5.975
+Vertex 0.75,1.1,-5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex 0.65,1.5,-5.975
+Vertex 0.65,1.5,-3.025
+Vertex 0.75,1.1,-3.025
+Vertex 0.75,1.1,-5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex 0.65,1.5,-3.025
+Vertex 1.25,1.5,-3.025
+Vertex 1.25,1.1,-3.025
+Vertex 0.75,1.1,-3.025
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,1.48
+Translate 0.93,1.52,-4.5
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex 1.25,2.15,-5.975
+Vertex 1.25,2.15,-3.025
+Vertex 1.15,1.54,-3.025
+Vertex 1.15,1.54,-5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;J4
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex 0.65,1.5,-7.525
+Vertex 1.25,1.5,-7.525
+Vertex 1.25,1.1,-7.525
+Vertex 0.75,1.1,-7.525
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex 0.65,1.5,-7.525
+Vertex 0.65,1.5,-9.45
+Vertex 0.75,1.1,-9.45
+Vertex 0.75,1.1,-7.525
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,0.973
+Translate 0.93,1.52,-8.5
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex 1.25,2.15,-7.525
+Vertex 1.25,2.15,-9.45
+Vertex 1.15,1.54,-9.45
+Vertex 1.15,1.54,-7.525
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;B1
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex -0.65,1.5,5.975
+Vertex -1.25,1.5,5.975
+Vertex -1.25,1.1,5.975
+Vertex -0.75,1.1,5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex -0.65,1.5,5.975
+Vertex -0.65,1.5,3.025
+Vertex -0.75,1.1,3.025
+Vertex -0.75,1.1,5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;hátsó fedõlap
+Vertex -0.65,1.5,3.025
+Vertex -1.25,1.5,3.025
+Vertex -1.25,1.1,3.025
+Vertex -0.75,1.1,3.025
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,1.48
+Translate -0.93,1.52,4.5
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex -1.25,2.15,5.975
+Vertex -1.25,2.15,3.025
+Vertex -1.15,1.54,3.025
+Vertex -1.15,1.54,5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;B2
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex -0.65,1.5,1.475
+Vertex -1.25,1.5,1.475
+Vertex -1.25,1.1,1.475
+Vertex -0.75,1.1,1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex -0.65,1.5,1.475
+Vertex -0.65,1.5,-1.475
+Vertex -0.75,1.1,-1.475
+Vertex -0.75,1.1,1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;hátsó fedõlap
+Vertex -0.65,1.5,-1.475
+Vertex -1.25,1.5,-1.475
+Vertex -1.25,1.1,-1.475
+Vertex -0.75,1.1,-1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,1.48
+Translate -0.93,1.52,0
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex -1.25,2.15,1.475
+Vertex -1.25,2.15,-1.475
+Vertex -1.15,1.54,-1.475
+Vertex -1.15,1.54,1.475
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;B3
+[MeshBuilder]                  ;hátsó fedõlap
+Vertex -0.65,1.5,-5.975
+Vertex -1.25,1.5,-5.975
+Vertex -1.25,1.1,-5.975
+Vertex -0.75,1.1,-5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex -0.65,1.5,-5.975
+Vertex -0.65,1.5,-3.025
+Vertex -0.75,1.1,-3.025
+Vertex -0.75,1.1,-5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex -0.65,1.5,-3.025
+Vertex -1.25,1.5,-3.025
+Vertex -1.25,1.1,-3.025
+Vertex -0.75,1.1,-3.025
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,1.48
+Translate -0.93,1.52,-4.5
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex -1.25,2.15,-5.975
+Vertex -1.25,2.15,-3.025
+Vertex -1.15,1.54,-3.025
+Vertex -1.15,1.54,-5.975
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;B4
+[MeshBuilder]                  ;elsõ fedõlap
+Vertex -0.65,1.5,-7.525
+Vertex -1.25,1.5,-7.525
+Vertex -1.25,1.1,-7.525
+Vertex -0.75,1.1,-7.525
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[MeshBuilder]                  ;oldalsó fedõlap
+Vertex -0.65,1.5,-7.525
+Vertex -0.65,1.5,-9.45
+Vertex -0.75,1.1,-9.45
+Vertex -0.75,1.1,-7.525
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load falszin.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;alsó üléstámla
+Cube 0.3,0.02,0.973
+Translate -0.93,1.52,-8.5
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]                  ;felsõ üléstámla
+Vertex -1.25,2.15,-7.525
+Vertex -1.25,2.15,-9.45
+Vertex -1.15,1.54,-9.45
+Vertex -1.15,1.54,-7.525
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load huzat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;ablaktestek
+
+[MeshBuilder]       ;front
+Vertex 1.3,3.5,9.18
+Vertex -1.4,3.5,9.18
+Vertex -1.4,1,9.45
+Vertex 1.3,1,9.45
+Face 0,1,2,3
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;J1
+Vertex 1.275,3.25,8
+Vertex 1.275,3.25,9.25
+Vertex 1.275,2.2,9.25
+Vertex 1.275,2.2,8
+Face 0,1,2,3
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;J2
+Vertex 1.275,3.25,3.5
+Vertex 1.275,3.25,5.5
+Vertex 1.275,2.2,5.5
+Vertex 1.275,2.2,3.5
+Face 0,1,2,3
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;J3
+Vertex 1.275,3.25,-1
+Vertex 1.275,3.25,1
+Vertex 1.275,2.2,1
+Vertex 1.275,2.2,-1
+Face 0,1,2,3
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;J4
+Vertex 1.275,3.25,-3.5
+Vertex 1.275,3.25,-5.5
+Vertex 1.275,2.2,-5.5
+Vertex 1.275,2.2,-3.5
+Face 1,0,3,2
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;J5
+Vertex 1.275,3.25,-8
+Vertex 1.275,3.25,-9.1
+Vertex 1.275,2.2,-9.1
+Vertex 1.275,2.2,-8
+Face 1,0,3,2
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;B1
+Vertex -1.275,3.25,8
+Vertex -1.275,3.25,9.25
+Vertex -1.275,2.2,9.25
+Vertex -1.275,2.2,8
+Face 1,0,3,2
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;B2
+Vertex -1.275,3.25,3.5
+Vertex -1.275,3.25,5.5
+Vertex -1.275,2.2,5.5
+Vertex -1.275,2.2,3.5
+Face 1,0,3,2
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;B3
+Vertex -1.275,3.25,-1
+Vertex -1.275,3.25,1
+Vertex -1.275,2.2,1
+Vertex -1.275,2.2,-1
+Face 1,0,3,2
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;B4
+Vertex -1.275,3.25,-3.5
+Vertex -1.275,3.25,-5.5
+Vertex -1.275,2.2,-5.5
+Vertex -1.275,2.2,-3.5
+Face 0,1,2,3
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;B5
+Vertex -1.275,3.25,-8
+Vertex -1.275,3.25,-9.1
+Vertex -1.275,2.2,-9.1
+Vertex -1.275,2.2,-8
+Face 0,1,2,3
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+[MeshBuilder]               ;back
+Vertex -1.32,3.25,-9.475
+Vertex 1.32,3.25,-9.475
+Vertex 1.32,2.2,-9.475
+Vertex -1.32,2.2,-9.475
+Face 0,1,2,3
+[Texture]
+Load ablak+.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+Color 255,255,255,150
+
+;kapaszkodós falak
+
+;jobb
+[MeshBuilder]                  ;1.
+Vertex 1.25,3.5,6
+Vertex 0.6,3.5,6
+Vertex 0.6,1,6
+Vertex 1.25,1,6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;2.
+Vertex 1.25,3.5,3
+Vertex 0.6,3.5,3
+Vertex 0.6,1,3
+Vertex 1.25,1,3
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;3.
+Vertex 1.25,3.5,1.5
+Vertex 0.6,3.5,1.5
+Vertex 0.6,1,1.5
+Vertex 1.25,1,1.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;4.
+Vertex 1.25,3.5,-1.5
+Vertex 0.6,3.5,-1.5
+Vertex 0.6,1,-1.5
+Vertex 1.25,1,-1.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;5.
+Vertex 1.25,3.5,-3
+Vertex 0.6,3.5,-3
+Vertex 0.6,1,-3
+Vertex 1.25,1,-3
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;6.
+Vertex 1.25,3.5,-6
+Vertex 0.6,3.5,-6
+Vertex 0.6,1,-6
+Vertex 1.25,1,-6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;7.
+Vertex 1.25,3.5,-7.5
+Vertex 0.6,3.5,-7.5
+Vertex 0.6,1,-7.5
+Vertex 1.25,1,-7.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+;bal
+[MeshBuilder]                  ;1.
+Vertex -1.25,3.5,6
+Vertex -0.6,3.5,6
+Vertex -0.6,1,6
+Vertex -1.25,1,6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;2.
+Vertex -1.25,3.5,3
+Vertex -0.6,3.5,3
+Vertex -0.6,1,3
+Vertex -1.25,1,3
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;3.
+Vertex -1.25,3.5,1.5
+Vertex -0.6,3.5,1.5
+Vertex -0.6,1,1.5
+Vertex -1.25,1,1.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;4.
+Vertex -1.25,3.5,-1.5
+Vertex -0.6,3.5,-1.5
+Vertex -0.6,1,-1.5
+Vertex -1.25,1,-1.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;5.
+Vertex -1.25,3.5,-3
+Vertex -0.6,3.5,-3
+Vertex -0.6,1,-3
+Vertex -1.25,1,-3
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;6.
+Vertex -1.25,3.5,-6
+Vertex -0.6,3.5,-6
+Vertex -0.6,1,-6
+Vertex -1.25,1,-6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]                  ;7.
+Vertex -1.25,3.5,-7.5
+Vertex -0.6,3.5,-7.5
+Vertex -0.6,1,-7.5
+Vertex -1.25,1,-7.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load fal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+
+[MeshBuilder]                  ;padló
+Vertex -1.3,1.1,9.5
+Vertex 1.3,1.1,9.5
+Vertex 1.3,1.1,-9.5
+Vertex -1.3,1.1,-9.5
+Face 0,1,2,3
+EmissiveColor 255,255,255
+[Texture]
+Load padlo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;;;;;;;;;;;;;
+;;;;;;;;;
+;megálló táblák
+
+[MeshBuilder]                  ;J1
+Vertex 0.99,3.45,7.5
+Vertex 0.99,3.45,6
+Vertex 1.09,3.25,6
+Vertex 1.09,3.25,7.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+[MeshBuilder]                  ;J2
+Vertex 0.99,3.45,3
+Vertex 0.99,3.45,1.5
+Vertex 1.09,3.25,1.5
+Vertex 1.09,3.25,3
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+[MeshBuilder]                  ;J3
+Vertex 0.99,3.45,-1.5
+Vertex 0.99,3.45,-3
+Vertex 1.09,3.25,-3
+Vertex 1.09,3.25,-1.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+[MeshBuilder]                  ;J3
+Vertex 0.99,3.45,-6
+Vertex 0.99,3.45,-7.5
+Vertex 1.09,3.25,-7.5
+Vertex 1.09,3.25,-6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+[MeshBuilder]                  ;B1
+Vertex -0.99,3.45,7.5
+Vertex -0.99,3.45,6
+Vertex -1.09,3.25,6
+Vertex -1.09,3.25,7.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+[MeshBuilder]                  ;B2
+Vertex -0.99,3.45,3
+Vertex -0.99,3.45,1.5
+Vertex -1.09,3.25,1.5
+Vertex -1.09,3.25,3
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+[MeshBuilder]                  ;B3
+Vertex -0.99,3.45,-1.5
+Vertex -0.99,3.45,-3
+Vertex -1.09,3.25,-3
+Vertex -1.09,3.25,-1.5
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+[MeshBuilder]                  ;B3
+Vertex -0.99,3.45,-6
+Vertex -0.99,3.45,-7.5
+Vertex -1.09,3.25,-7.5
+Vertex -1.09,3.25,-6
+Face 0,1,2,3
+Face 1,0,3,2
+EmissiveColor 255,255,255
+[Texture]
+Load tabla_M3.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1

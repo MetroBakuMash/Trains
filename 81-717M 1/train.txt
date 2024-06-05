@@ -1,0 +1,36 @@
+﻿81-7172M típusú vezérkocsikból és 81-7142M típusú középkocsikból álló szerelvény.
+Equipment of type 81-7172M driveable cars and type 81-7142M center cars.
+
+
+Kezelőelemek/Buttons:
+
++ - indításjelző szöveg/closing door signal
+
+Insert - első tolatófény/front shunting light
+Home - távolsági fényszóró/high beam
+Delete - utastérvilágítás/passengers light
+End - első fülkevilágítás/front cab light
+PageDown - első pult (műszer) világítás/front gauge light
+PageUp - áramszedő fel/le
+
+2 - Fok-gyem (vizuális utastájékoztató tábla) kijelzés váltása/switch visual passenger information board
+3,4,5 - ablaktörlők/wipers
+
+8 - hátsó fülkevilágítás/rear cab light
+9 - hátsó pult (műszer) világítás/rear gauge light
+ö (on English keyboards 0) - hátsó tolatófény/rear shunting light
+
+
+Tömege/Weight: 165 t
+Hossza/Length: 96 m
+Szélessége/Width: 2670 mm
+Magassága/Height: 3662 mm
+Legnagyobb sebesség/Maximum speed: 90 km/h (56 MPH)
+Férőhelyek/Space: 890 (200 ülőhely/sitting places, 690 állóhely/standing places)
+Teljesítmény/Power: 2200 kW (1618 LE/HP)
+Szerelvény összeállítása/Set up of equipment: MC-M-M-M-MC
+
+
+A szerelvényeket 1998-ban vette a BKV a 2-es metró vonalára. 2 szerelvény van forgalomban. A szerelvényekből kikötötték az utolsó söntfokozatot, illetve az eredetileg 116 kW-os motorokat áttekercselték 110 kW-ra, így a vonat végsebessége 90 km/h-ra csökkent.
+
+The equipments have been bought in 1998 by Budapest Transport Ltd. to line 2. There are 2 equipments in traffic. The last 2 shunt notches were disassembled, and the engines were converted from 116 kW to 110 kW, so the maximum speed of the equipment decreased to 90 km/h (56 MPH).
